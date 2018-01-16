@@ -1,3 +1,16 @@
+# Face Detect and Compare added by Vincent Yang (shineyjg@gmail.com)
+the project is forked from https://github.com/davidsandberg/facenet, all files I add is in the sub dir src/myface
+
+this project is the submodule of https://github.com/shineyjg/CvLab
+
+## run dependency
+  redis
+  the redis parameters must be configured before running. see myface/compare.py and myface/detect.py
+
+## run
+  python src/myface/detect.py
+  python src/myface/compare.py
+
 # Face Recognition using Tensorflow [![Build Status][travis-image]][travis]
 
 [travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master
